@@ -108,4 +108,10 @@ const reducer = (state = initialState, action) => {
 
     // if (action.type === 'SUBTRACT') {
     //     return {
-    //         
+    //         counter: state.counter - action.val
+    //     }
+    // }
+    return state;
+};
+
+export default reducer;
